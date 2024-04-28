@@ -21,4 +21,4 @@
       failed_when: systemctl_status.rc > 1
 
   roles:
-    - role: aleksanderbl29.sonos-stream
+    - role: aleksanderbl29.hyperhdr
