@@ -1,7 +1,9 @@
-Role Name
+Ansible Role HyperHDR
 =========
 
-A brief description of the role goes here.
+[![CI](https://github.com/aleksanderbl29/ansible-role-hyperhdr/actions/workflows/ci.yml/badge.svg)](https://github.com/aleksanderbl29/ansible-role-hyperhdr/actions/workflows/ci.yml)
+
+A role to deploy HyperHDR on debian based systems
 
 Requirements
 ------------
