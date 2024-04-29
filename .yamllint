@@ -8,4 +8,4 @@ rules:
 
 ignore: |
   .github/workflows/stale.yml
-  tasks/gtp.yml
+
