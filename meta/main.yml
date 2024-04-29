@@ -7,12 +7,10 @@ galaxy_info:
   platforms:
     - name: Debian
       versions:
-        - Bullseye
-        - Bookworm
+        - all
     - name: Ubuntu
       versions:
-        - Noble Numbat
-        - Jammy Jellyfish
+        - all
 
   galaxy_tags:
     - hyperhdr
