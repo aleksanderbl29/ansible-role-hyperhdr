@@ -11,7 +11,8 @@ galaxy_info:
         - Bookworm
     - name: Ubuntu
       versions:
-        - all
+        - Noble Numbat
+        - Jammy Jellyfish
 
   galaxy_tags:
     - hyperhdr
