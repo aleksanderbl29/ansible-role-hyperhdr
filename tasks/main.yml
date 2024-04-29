@@ -3,9 +3,9 @@
 - name: Include role tasks
   ansible.builtin.include_tasks: "{{ item }}"
   loop:
-    # - prerequisites.yml
-    # - apt.yml
-    # - install.yml
-    # - service.yml
-    # - verify.yml
-    - gtp.yml
+    - prerequisites.yml
+    - apt.yml
+    - install.yml
+    - service.yml
+    - verify.yml
+    # - gtp.yml
