@@ -21,10 +21,9 @@
     mode: '0644'
 
 - name: Add HyperHDR repository
-  lineinfile:
-    dest: /etc/apt/sources.list.d/hyperhdr.list
-    line: "deb [arch={{ ansible_architecture }} signed-by=/usr/share/keyrings/hyperhdr.public.apt.gpg.key] https://awawa-dev.github.io {{ ansible_distribution_release }} main"
-    create: yes
+  apt_repository:
+    repo: "deb [arch={{ ansible_architecture }} signed-by=/usr/share/keyrings/hyperhdr.public.apt.gpg.key] https://awawa-dev.github.io {{ ansible_distribution_release }} main"
+    state: present
 
 - name: Update apt cache
   apt:
@@ -34,3 +33,4 @@
   apt:
     name: hyperhdr
     state: present
+
