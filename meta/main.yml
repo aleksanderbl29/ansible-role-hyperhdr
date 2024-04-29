@@ -7,8 +7,8 @@ galaxy_info:
   platforms:
     - name: Debian
       versions:
-        - debian12
-        - debian11
+        - Bullseye
+        - Bookworm
     - name: Ubuntu
       versions:
         - all
