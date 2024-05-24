@@ -1,7 +1,8 @@
 Ansible Role HyperHDR
 =========
 
-[![CI](https://github.com/aleksanderbl29/ansible-role-hyperhdr/actions/workflows/ci.yml/badge.svg)](https://github.com/aleksanderbl29/ansible-role-hyperhdr/actions/workflows/ci.yml)
+[![CI](https://github.com/aleksanderbl29/ansible-role-hyperhdr/actions/workflows/ci.yml/badge.svg)](https://github.com/aleksanderbl29/ansible-role-hyperhdr/actions/workflows/ci.yml) ![Galaxy downloads](https://img.shields.io/ansible/role/d/aleksanderbl29/sonos_stream)
+
 
 A role to deploy HyperHDR on debian based systems.
 
