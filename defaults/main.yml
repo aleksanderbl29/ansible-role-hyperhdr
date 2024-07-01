@@ -1,2 +1,4 @@
 ---
-# defaults file for hyperhdr
+disable_verification: false
+disable_conn_validation: false
+disable_service_validation: false

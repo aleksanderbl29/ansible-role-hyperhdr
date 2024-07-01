@@ -9,3 +9,7 @@
     - service.yml
     - verify.yml
     # - gtp.yml
+
+- name: Include verify tasks
+  ansible.builtin.include_tasks: verify.yml
+  when: disable_verification is false

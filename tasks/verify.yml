@@ -4,6 +4,7 @@
   ansible.builtin.service:
     name: hyperhdr@root.service
     state: started
+  when: disable_service_validation is false
 
 - name: Validate connection to hyperhdr servers
   ansible.builtin.wait_for:
@@ -11,3 +12,4 @@
     port: 8090
     timeout: 30
     active_connection_states: ESTABLISHED
+  when: disable_conn_validation is false
