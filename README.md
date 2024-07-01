@@ -16,7 +16,13 @@ None
 Role Variables
 --------------
 
-None for now
+Verification checks (post-install) can be disabled with the following variables. I recommend against this, but it may be useful.
+
+```
+disable_verification: false
+disable_conn_validation: false
+disable_service_validation: false
+```
 
 Dependencies
 ------------
